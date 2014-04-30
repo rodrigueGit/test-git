@@ -5,7 +5,7 @@ add status (
 add action (
   id = 1000
   name = "StartWorkflow"
-  cmd = "validate()book()status(1)")
+  cmd = "validate()initpos()book()status(1)")
   
 add action (
   id = 1100
