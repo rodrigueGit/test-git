@@ -16,6 +16,11 @@ add status (
   id = 1
   name = "Booked")
   
+add action (
+  id = 2100
+  name = "FinishWorkflow"
+  cmd = "status(99)")
+  
 add status (
   id = 99
   name = "End")
